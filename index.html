@@ -32,7 +32,7 @@
   white-space: nowrap;
   will-change: box-shadow,transform;
   font-size: 18px;
-
+  
 }
 
 .button-30:focus {
@@ -49,25 +49,27 @@
   transform: translateY(2px);
 }
 
-.center{
-    position:fixed;
-    top:45%;
-    left:47%;
+.center {
+
+  border: 3px solid green;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
 }
-.center1{
-    position:fixed;
-    top:50%;
-    left:45%;
-}
+
     </style>
 <title>Visualization</title>
 </head>
 <body>
-    <button class="button-30 center" role="button" onclick="location.href='H1_HL.html'">High-Low Plot</button>
+  <div class="center">
+    <button class="button-30" role="button" onclick="location.href='H1_HL.html'">High-Low Plot</button>
     <br>
     <br>
-    <button class="button-30 center1" role="button" onclick="location.href='H1_HL-separated.html'">High-Low-Separated Plot</button>
-
+    <button class="button-30" role="button" onclick="location.href='H1_HL-separated.html'">High-Low-Separated Plot</button>
+  </div>
     
 </body>
 </html>
